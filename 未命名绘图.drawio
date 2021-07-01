@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T12:42:30.595Z" agent="5.0 (Windows)" etag="PDajR_ua6mwi8S6uG08Z" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T12:48:32.448Z" agent="5.0 (Windows)" etag="7FktLaGkFqtbeTeu0e64" version="14.8.3" type="github">
   <diagram id="oSUh5gTr1yz_BKYe20sq" name="第 1 页">
     <mxGraphModel dx="1022" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             <mxPoint x="415" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-6" value="访问登录页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-6" value="访问注册页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B3denJLG_MfzvqDeC5Jf-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -30,10 +30,10 @@
             <mxPoint x="630" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-11" value="账号、密码或登录类型未填" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="454" y="270" width="160" height="20" as="geometry" />
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-11" value="账号、密码或确认密码不符合要求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434" y="270" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-12" value="提示用户填写账号密码和登陆类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-12" value="提示用户正确填写账号密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B3denJLG_MfzvqDeC5Jf-13" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="B3denJLG_MfzvqDeC5Jf-6">
@@ -63,60 +63,69 @@
             <mxPoint x="414" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-18" value="连接数据库验证账号密码和用户类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-18" value="连接数据库添加用户条目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-19" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="490" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-18" target="B3denJLG_MfzvqDeC5Jf-19">
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="420" as="sourcePoint" />
-            <mxPoint x="440" y="370" as="targetPoint" />
+            <mxPoint x="415" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-21" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="B3denJLG_MfzvqDeC5Jf-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="454" y="530" as="sourcePoint" />
-            <mxPoint x="504" y="480" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="560" y="530" />
-              <mxPoint x="560" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-22" value="验证失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="510" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="455" y="530" as="sourcePoint" />
-            <mxPoint x="628" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-24" value="提示用户账号密码用户类型错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="600" as="sourcePoint" />
-            <mxPoint x="415" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-26" value="验证成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="414" y="600" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-27" value="跳转主界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-27" value="关闭注册页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B3denJLG_MfzvqDeC5Jf-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="400" y="780" width="30" height="30" as="geometry" />
+          <mxGeometry x="402" y="770" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B3denJLG_MfzvqDeC5Jf-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="850" as="sourcePoint" />
-            <mxPoint x="415" y="780" as="targetPoint" />
+            <mxPoint x="392" y="840" as="sourcePoint" />
+            <mxPoint x="417" y="770" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-31" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-31" target="B3denJLG_MfzvqDeC5Jf-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-33" value="注册成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="575" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-34" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="615" as="sourcePoint" />
+            <mxPoint x="280" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-35" value="提示用户注册成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-36" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="B3denJLG_MfzvqDeC5Jf-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="530" as="sourcePoint" />
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="530" />
+              <mxPoint x="590" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-37" value="注册失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="510" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-38" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="584" y="530" as="sourcePoint" />
+            <mxPoint x="636" y="529" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3denJLG_MfzvqDeC5Jf-39" value="提示用户注册失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="634" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
