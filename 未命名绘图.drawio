@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T12:48:32.448Z" agent="5.0 (Windows)" etag="7FktLaGkFqtbeTeu0e64" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T12:48:43.151Z" agent="5.0 (Windows)" etag="NoxHrptHhr2I_Lc5B52x" version="14.8.3" type="github">
   <diagram id="oSUh5gTr1yz_BKYe20sq" name="第 1 页">
     <mxGraphModel dx="1022" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,18 +44,6 @@
               <mxPoint x="690" y="170" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="374" y="290" as="sourcePoint" />
-            <mxPoint x="240" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-15" value="点击注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="270" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="B3denJLG_MfzvqDeC5Jf-16" value="跳转注册页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B3denJLG_MfzvqDeC5Jf-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B3denJLG_MfzvqDeC5Jf-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
